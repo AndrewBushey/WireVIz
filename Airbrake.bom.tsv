@@ -9,7 +9,9 @@ Id	Description	Qty	Unit	Designators
 8	Connector, Compute Board, Male, 6 pins	1		MotorDriver1
 9	Connector, Controler, Screw, 5 pins	1		MotorControler_OUT
 10	Connector, Controler, Screw, 6 pins	1		MotorControler_IN
-11	Connector, Sensor, Clip, 2 pins	1		LimitSwitch
-12	Connector, Sensor, Male, 30 pins	1		VN-100_J5
-13	Connector, Sensor, Male, 4 pins	1		SensorBoard
-14	Connector, compute Board, Male, 6 pins	1		VN-100-1
+11	Connector, Motor, Female, 5 pins	1		Motor
+12	Connector, Sensor, Clip, 2 pins	1		LimitSwitch
+13	Connector, Sensor, Male, 30 pins	1		VN-100_J5
+14	Connector, Sensor, Male, 4 pins	1		SensorBoard
+15	Connector, compute Board, Male, 6 pins	1		VN-100-1
+16	Connector, sensor, clip, 4 pins	1		MotorEncoder

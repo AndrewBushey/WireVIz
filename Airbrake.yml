@@ -85,6 +85,12 @@ connectors:
     pincount: 5
     pinlabels: [...,...,...,...,...]
 
+  MotorEncoder:
+    type: sensor
+    subtype: clip
+    pincount: 4
+    pinlabels: [...,...,...,...]
+
 cables:
   W1:
     colors: [RD, WH, GN, BU]
@@ -120,7 +126,7 @@ connections:
   -
     - MotorEncoder1: [1,2,3,4]
     - W3: [1,2,3,4]
-#    - MotorEncoder: []
+    - MotorEncoder: [1,2,3,4]
   -
     - VN-100-1: [1,2,3,4,5,6]
     - W4: [1,2,3,4,5,6]
@@ -136,4 +142,4 @@ connections:
   -
     - MotorControler_OUT: [1,2,3,4,5]
     - W7: [1,2,3,4,5]
-#    - Motor: []
+    - Motor: [1,2,3,4,5]
