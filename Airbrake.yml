@@ -37,9 +37,13 @@ connectors:
 
   BlueRaven:
     type: Sensor
-    subtype: Male
-    pincount: 6
-    pinlabels: [+IN, GND, APO, Main, 3rd, 4th]
+    subtype: Micro-USB
+    pincount: 1
+    pinlabels: [Micro-USB]
+    image:
+      src: Screenshot 2025-02-15 at 10.57.05 PM.png
+      height: 100
+      caption: Needs to be one single grey cable in... might have to be drawn in later.
 
   SensorBoard:
     type: Sensor
@@ -113,12 +117,17 @@ cables:
   W7:
     colors: [WH, YE, LB, RD, BK]
     wirecount: 5
+  W8:
+    colors: [GY]
+    wirecount: 1
 
 connections:
   -
     - BlueRaven1: [1,2,3,4]
     - W1: [1,2,3,4]
-#    - Blueraven: []
+  -
+    - W1: [1] 
+    - BlueRaven: [1]
   -
     - SensorBoard1: [1,2,3,4]
     - W2: [1,2,3,4]

@@ -13,5 +13,6 @@ Id	Description	Qty	Unit	Designators
 12	Connector, Sensor, Clip, 2 pins	1		LimitSwitch
 13	Connector, Sensor, Male, 30 pins	1		VN-100_J5
 14	Connector, Sensor, Male, 4 pins	1		SensorBoard
-15	Connector, compute Board, Male, 6 pins	1		VN-100-1
-16	Connector, sensor, clip, 4 pins	1		MotorEncoder
+15	Connector, Sensor, Micro-USB, 1 pins	1		BlueRaven
+16	Connector, compute Board, Male, 6 pins	1		VN-100-1
+17	Connector, sensor, clip, 4 pins	1		MotorEncoder
