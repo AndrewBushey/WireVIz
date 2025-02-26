@@ -5,7 +5,7 @@ connectors:
     pincount: 5
     pinlabels: [usb_5v, D-, D+, GND, GND]
     image:
-      src: BlueRaven1.png
+      src: Pictures/BlueRaven1.png
       height: 100
 
 
@@ -15,7 +15,7 @@ connectors:
     pincount: 4
     pinlabels: [GND, SCL, SDA, +3.3V]
     image:
-      src: SensorBoard1.png
+      src: Pictures/SensorBoard1.png
       height: 100
 
 
@@ -25,7 +25,7 @@ connectors:
     pincount: 4
     pinlabels: [GND, Encoder_A, +5V, Encoder_B]
     image:
-      src: MotorEncoder1.png
+      src: Pictures/MotorEncoder1.png
       height: 100
 
 
@@ -35,7 +35,7 @@ connectors:
     pincount: 6
     pinlabels: [+5V, MOSI, MISO, SCK, SC, GND]
     image:
-      src: VN-100.png
+      src: Pictures/VN-100.png
       height: 100
 
 
@@ -45,7 +45,7 @@ connectors:
     pincount: 3
     pinlabels: [GND, NC, NO]
     image:
-      src: LimitSwitch1.png
+      src: Pictures/LimitSwitch1.png
       height: 100
 
 
@@ -55,7 +55,7 @@ connectors:
     pincount: 6
     pinlabels: [GND, Motordriver_pin_2, Motordriver_pin_3, Motordriver_pin_4, Motordriver_pin_5, +5V]
     image:
-      src: MotorDriver1.png
+      src: Pictures/MotorDriver1.png
       height: 100
 
 
@@ -63,7 +63,7 @@ connectors:
     pincount: 2
     pinlabels: [NET - (Battery1-Pin_1), GND]
     image:
-      src: Battery1.png
+      src: Pictures/Battery1.png
       height: 100
   
 
@@ -78,7 +78,7 @@ connectors:
     pincount: 7
     pinlabels: [+V, GND, APO, MAIN, 3RD, 4TH, Micro-USB]
     image:
-      src: BlueRaven.png
+      src: Pictures/BlueRaven.png
       height: 100
 
 
@@ -87,6 +87,9 @@ connectors:
     subtype: Male
     pincount: 4
     pinlabels: [GND, SCL, SDA, 3V3]
+    image:
+      src: Pictures/SensorBoard.png
+      height: 80
 
 
   MotorController_IN:
@@ -95,7 +98,7 @@ connectors:
     pincount: 6
     pinlabels: [5V, 0-5V, GND, DIR, BRAKE, STOP]
     image:
-      src: MotorControlerIn.png
+      src: Pictures/MotorControlerIn.png
       height: 160  # Scale the image size slightly down
 
 
@@ -105,7 +108,7 @@ connectors:
     pincount: 3
     pinlabels: [MA, BA, MC]
     image:
-      src: MotorControlerOut.png
+      src: Pictures/MotorControlerOut.png
       height: 110  # Scale the image size slightly down
     
 
@@ -115,7 +118,7 @@ connectors:
     pincount: 2
     pinlabels: [VCC, GND]
     image:
-      src: MotorControlerOut.png
+      src: Pictures/MotorControlerOut.png
       height: 110
 
   
@@ -125,6 +128,9 @@ connectors:
     subtype: pin
     pincount: 5
     pinlabels: [GND, Hc, Hb, Ha, 5V]
+    image:
+      src: Pictures/MotorController_Out5.png
+      height: 70
 
 
   VN-100_J5:
@@ -133,7 +139,7 @@ connectors:
     pincount: 30
     pinlabels: [GND, GND, GND, GND, TX2, RX2, TARE/RESTORE, NC, SYNC_OUT, WIN, ENABLE, TX1, RX1, RESV, SYNC_IN_2, SPI_SCK, SPI_MISO, REPRGM, NRST, SYNC_IN, SPI_CS, GPS_PPS, VBAT, RESV, RESV, GND, GPS_RF, GND]
     image:
-      src: Vectornav-100-c.png
+      src: Pictures/Vectornav-100-c.png
       height: 135
 
 
@@ -150,7 +156,7 @@ connectors:
     pincount: 3
     pinlabels: [...,...,...]
     image:
-      src: Motor_connector.png
+      src: Pictures/Motor_connector.png
       height: 100
 
 
@@ -160,7 +166,7 @@ connectors:
     pincount: 5
     pinlabels: [...,...,...,...,...]
     image:
-      src: Motor_connector.png
+      src: Pictures/Motor_connector.png
       height: 100
 
 
@@ -170,7 +176,7 @@ connectors:
     pincount: 10
     pinlabels: [GND, GND, I, I, A, A, +5V, +5V, B, B]
     image:
-      src: Motor_encoder.png
+      src: Pictures/Motor_encoder.png
       height: 100
 
 
@@ -215,7 +221,7 @@ cables:
     colors: [OG, YE, GN, VT]
     wirecount: 4
     image:
-      src: Encoder_wire.png
+      src: Pictures/Encoder_wire.png
       height: 100
   W4:
     colors: [RD, LB, GN, YE, WH, BK]
@@ -230,7 +236,7 @@ cables:
     colors: [WH, YE, LB]
     wirecount: 3
     image:
-      src: Motor_wire3.png
+      src: Pictures/Motor_wire3.png
       height: 100
   W8:
     colors: [RD, BK]
@@ -242,7 +248,7 @@ cables:
     colors: [BK,LB,YE,OG,RD]
     wirecount: 5
     image:
-      src: Motor_wire5.png
+      src: Pictures/Motor_wire5.png
       height: 100
   W11:
     colors: [RD,BK]
